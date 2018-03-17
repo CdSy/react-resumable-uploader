@@ -1,0 +1,50 @@
+{
+  "name": "react-resumable-uploader",
+  "version": "0.1.4",
+  "description": "File upload with resumable upload",
+  "main": "lib/react-resumable-uploader.js",
+  "scripts": {
+    "build": "webpack --env.NODE_ENV=development && webpack --env.NODE_ENV=production",
+    "dev": "webpack --progress --colors --watch --env.NODE_ENV=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CdSy/react-resumable-uploader"
+  },
+  "keywords": [
+    "upload",
+    "file-upload",
+    "react",
+    "resumable-upload",
+    "resumable",
+    "socketIO"
+  ],
+  "author": "Alexey Tuychiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CdSy/react-resumable-uploader/issues"
+  },
+  "homepage": "https://github.com/CdSy/react-resumable-uploader",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.0",
+    "babel-runtime": "6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.10.0",
+    "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "crc32": "^0.2.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "socket.io": "^2.0.4",
+    "webworkify-webpack": "^2.1.1"
+  }
+}
